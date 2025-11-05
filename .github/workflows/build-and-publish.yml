@@ -34,7 +34,7 @@ jobs:
           - platform: linux/arm64
             runner: ubuntu-24.04-arm
           - platform: linux/riscv64
-            runner: ubuntu-24.04-arm
+            runner: ubuntu-latest
 
     steps:
       - name: Prepare name for digest up/download
